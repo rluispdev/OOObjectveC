@@ -16,7 +16,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
+    
+    
 }
 
-
+///Criar o alerta.
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    NSString *myBuffer = @"Esta é uma mensagem de alerta.";
+    
+    
+    UIAlertController *myAlert = [UIAlertController alertControllerWithTitle:@"Alerta"
+                                                                     message:myBuffer
+                                                              preferredStyle:UIAlertControllerStyleAlert];
+    
+    // Criar a ação "OK"
+    UIAlertAction *acaoOK = [UIAlertAction actionWithTitle:@"OK"
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:^(UIAlertAction *action) {
+        NSLog(@"O usuário clicou em OK");
+    }];
+    
+    // Adicionar a ação ao alerta
+    [myAlert addAction:acaoOK];
+    
+    // Apresentar o alerta
+    [self presentViewController:myAlert animated:YES completion:nil];
+}
 @end

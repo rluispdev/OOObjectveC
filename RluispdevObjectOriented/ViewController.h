@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Car.h"
 
 @interface ViewController : UIViewController
 
