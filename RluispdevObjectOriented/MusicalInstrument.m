@@ -16,12 +16,11 @@
     self -> volume = v;
     
     return self;
-    
-    
 }
 
 -(NSString *) toPlay {
     return @"Som do instrumento";
 }
+
 
 @end

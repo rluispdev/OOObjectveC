@@ -23,4 +23,8 @@
     return @"Plugado";
 }
 
+- (NSString *) storeable {
+    return @"Guitarra guarada em case próprio de guitarra.";
+}
+
 @end

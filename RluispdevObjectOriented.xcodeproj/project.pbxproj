@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F52559E2C469DF5006E29C8 /* Storeable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storeable.h; sourceTree = "<group>"; };
 		8F91214D2C45CE7C0095DA77 /* RluispdevObjectOriented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RluispdevObjectOriented.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9121502C45CE7C0095DA77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F9121512C45CE7C0095DA77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				8F91216D2C45DFF40095DA77 /* MusicalInstrument.m */,
 				8F91216F2C45E4170095DA77 /* Guitar.h */,
 				8F9121702C45E4170095DA77 /* Guitar.m */,
+				8F52559E2C469DF5006E29C8 /* Storeable.h */,
 			);
 			path = RluispdevObjectOriented;
 			sourceTree = "<group>";

@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Storeable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MusicalInstrument : NSObject {
+@interface MusicalInstrument : NSObject <Storeable> {
     
     bool isPercussion;
     int volume;

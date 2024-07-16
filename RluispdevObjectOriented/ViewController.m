@@ -39,6 +39,8 @@
     Guitar *myGuitar = [[Guitar alloc] initWithIsPercussion:FALSE volume:100 numberStrings:6];
     myBuffer = [[NSString alloc] initWithFormat:@"Número de corda: %d", myGuitar-> numberStrings];
     
+    myBuffer = [myGuitar toPlay];
+    myBuffer = [myGuitar storeable];
     
     //MARK: - EXIBIR ALERTA
     
