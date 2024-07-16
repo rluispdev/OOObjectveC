@@ -22,5 +22,8 @@
     return @"Som do instrumento";
 }
 
+- (NSString *) storeable {
+    return @"Guardando instrumento generico";
+}
 
 @end
