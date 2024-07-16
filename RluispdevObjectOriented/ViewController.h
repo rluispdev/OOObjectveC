@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 #import "Car.h"
+#import "MusicalInstrument.h"
+#import "Guitar.h"
 
 @interface ViewController : UIViewController
 

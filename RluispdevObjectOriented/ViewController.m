@@ -24,7 +24,7 @@
     [super viewDidAppear:animated];
     NSString *myBuffer;
     
-    
+    /*
     Car *myCar = [[Car alloc] initWithColorAndSpeed:@"Azul" speed:98];
     
     [myCar toSpeedUp];
@@ -33,8 +33,17 @@
     [myCar brake];
     
     myBuffer = [[NSString alloc] initWithFormat: @"Velocidade atual: %d", [myCar getSpeed]];
+     
+     */
     
-           UIAlertController *myAlert = [UIAlertController alertControllerWithTitle:@"Alerta"                                                           message:myBuffer                                                    preferredStyle:UIAlertControllerStyleAlert];
+    Guitar *myGuitar = [[Guitar alloc] initWithIsPercussion:FALSE volume:100 numberStrings:6];
+    myBuffer = [[NSString alloc] initWithFormat:@"Número de corda: %d", myGuitar-> numberStrings];
+    
+    
+    //MARK: - EXIBIR ALERTA
+    
+    
+    UIAlertController *myAlert = [UIAlertController alertControllerWithTitle:@"Alerta"                                                           message:myBuffer                                                    preferredStyle:UIAlertControllerStyleAlert];
     
     // Criar a ação "OK"
     UIAlertAction *acaoOK = [UIAlertAction actionWithTitle:@"OK"                                                 style:UIAlertActionStyleDefault                                                 handler:^(UIAlertAction *action) {

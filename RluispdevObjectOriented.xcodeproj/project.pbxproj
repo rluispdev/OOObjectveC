@@ -15,6 +15,8 @@
 		8F9121602C45CE7D0095DA77 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8F91215F2C45CE7D0095DA77 /* Base */; };
 		8F9121632C45CE7D0095DA77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9121622C45CE7D0095DA77 /* main.m */; };
 		8F91216B2C45CF370095DA77 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91216A2C45CF370095DA77 /* Car.m */; };
+		8F91216E2C45DFF40095DA77 /* MusicalInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91216D2C45DFF40095DA77 /* MusicalInstrument.m */; };
+		8F9121712C45E4170095DA77 /* Guitar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9121702C45E4170095DA77 /* Guitar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		8F9121622C45CE7D0095DA77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F9121692C45CF370095DA77 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		8F91216A2C45CF370095DA77 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8F91216C2C45DFF40095DA77 /* MusicalInstrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicalInstrument.h; sourceTree = "<group>"; };
+		8F91216D2C45DFF40095DA77 /* MusicalInstrument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicalInstrument.m; sourceTree = "<group>"; };
+		8F91216F2C45E4170095DA77 /* Guitar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guitar.h; sourceTree = "<group>"; };
+		8F9121702C45E4170095DA77 /* Guitar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guitar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 				8F9121622C45CE7D0095DA77 /* main.m */,
 				8F9121692C45CF370095DA77 /* Car.h */,
 				8F91216A2C45CF370095DA77 /* Car.m */,
+				8F91216C2C45DFF40095DA77 /* MusicalInstrument.h */,
+				8F91216D2C45DFF40095DA77 /* MusicalInstrument.m */,
+				8F91216F2C45E4170095DA77 /* Guitar.h */,
+				8F9121702C45E4170095DA77 /* Guitar.m */,
 			);
 			path = RluispdevObjectOriented;
 			sourceTree = "<group>";
@@ -153,7 +163,9 @@
 			files = (
 				8F91216B2C45CF370095DA77 /* Car.m in Sources */,
 				8F9121582C45CE7C0095DA77 /* ViewController.m in Sources */,
+				8F9121712C45E4170095DA77 /* Guitar.m in Sources */,
 				8F9121522C45CE7C0095DA77 /* AppDelegate.m in Sources */,
+				8F91216E2C45DFF40095DA77 /* MusicalInstrument.m in Sources */,
 				8F9121632C45CE7D0095DA77 /* main.m in Sources */,
 				8F9121552C45CE7C0095DA77 /* SceneDelegate.m in Sources */,
 			);
